@@ -615,7 +615,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-01-25,SEM VÍTIMA,PINA,Perfeito estado,0,2
 2020-01-25,SEM VÍTIMA,MUSTARDINHA,Perfeito estado,0,2
 2020-01-25,SEM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
-2020-01-25,COM VÍTIMA,MACAXEIRA,Outros,0,2
 2020-01-25,SEM VÍTIMA,AREIAS,Perfeito estado,0,2
 2020-01-25,SEM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
 2020-01-25,COM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
@@ -1289,7 +1288,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-02-20,SEM VÍTIMA,TAMARINEIRA,Perfeito estado,0,2
 2020-02-20,SEM VÍTIMA,ILHA DO LEITE,Perfeito estado,0,2
 2020-02-20,COM VÍTIMA,IMBIRIBEIRA,Perfeito estado,0,2
-2020-02-20,SEM VÍTIMA,IPUTINGA,Outros,0,2
 2020-02-20,SEM VÍTIMA,ILHA DO RETIRO,Perfeito estado,0,2
 2020-02-20,SEM VÍTIMA,IBURA,Perfeito estado,0,2
 2020-02-20,SEM VÍTIMA,SANTO AMARO,Perfeito estado,0,2
@@ -1321,7 +1319,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-02-20,SEM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
 2020-02-20,COM VÍTIMA,SAN MARTIN,Perfeito estado,0,2
 2020-02-20,SEM VÍTIMA,PRADO,Perfeito estado,0,2
-2020-02-20,SEM VÍTIMA,SAN MARTIN,Outros,0,2
 2020-02-20,SEM VÍTIMA,AFOGADOS,Perfeito estado,0,1
 2020-02-20,SEM VÍTIMA,PAISSANDU,Perfeito estado,0,2
 2020-02-20,SEM VÍTIMA,VASCO DA GAMA,Perfeito estado,0,2
@@ -2003,7 +2000,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-05-04,VÍTIMA FATAL,JARDIM SÃO PAULO,Perfeito estado,0,2
 2020-05-04,COM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
 2020-05-04,SEM VÍTIMA,IMBIRIBEIRA,Perfeito estado,0,2
-2020-05-04,COM VÍTIMA,GUABIRABA,Outros,0,2
 2020-05-04,COM VÍTIMA,CAMPO GRANDE,Perfeito estado,1,1
 2020-05-05,SEM VÍTIMA,SANTO AMARO,Perfeito estado,0,0
 2020-05-05,SEM VÍTIMA,CASA AMARELA,Perfeito estado,0,3
@@ -2164,7 +2160,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-06-14,COM VÍTIMA,CABANGA,Perfeito estado,0,1
 2020-06-14,COM VÍTIMA,MADALENA,Perfeito estado,0,2
 2020-06-15,SEM VÍTIMA,MUSTARDINHA,Perfeito estado,0,2
-2020-06-15,SEM VÍTIMA,SÍTIO DOS PINTOS,Outros,0,1
 2020-06-15,SEM VÍTIMA,SÃO JOSÉ,Perfeito estado,0,2
 2020-06-15,COM VÍTIMA,CASA AMARELA,Perfeito estado,0,2
 2020-06-16,COM VÍTIMA,VÁRZEA,Perfeito estado,0,2
@@ -2293,7 +2288,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-07-07,SEM VÍTIMA,ENCRUZILHADA,Perfeito estado,0,2
 2020-07-07,SEM VÍTIMA,SANTO AMARO,Perfeito estado,0,2
 2020-07-07,COM VÍTIMA,GRAÇAS,Perfeito estado,0,2
-2020-07-07,SEM VÍTIMA,DERBY,Outros,0,2
 2020-07-08,COM VÍTIMA,SANTO AMARO,Perfeito estado,0,2
 2020-07-08,SEM VÍTIMA,TAMARINEIRA,Perfeito estado,0,0
 2020-07-08,SEM VÍTIMA,JOANA BEZERRA,Perfeito estado,0,2
@@ -2417,7 +2411,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-07-29,COM VÍTIMA,ENCRUZILHADA,Perfeito estado,0,2
 2020-07-29,COM VÍTIMA,SANTO AMARO,Perfeito estado,0,2
 2020-07-29,SEM VÍTIMA,SANTO AMARO,Perfeito estado,0,2
-2020-07-29,COM VÍTIMA,BOA VISTA,Outros,0,2
 2020-07-29,COM VÍTIMA,IPSEP,Perfeito estado,0,2
 2020-07-29,COM VÍTIMA,SAN MARTIN,Perfeito estado,0,2
 2020-07-29,COM VÍTIMA,CAMPINA DO BARRETO,Perfeito estado,1,1
@@ -2964,7 +2957,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-11-11,COM VÍTIMA,JIQUIÁ,Perfeito estado,0,2
 2020-11-11,COM VÍTIMA,SANTO AMARO,Perfeito estado,0,2
 2020-11-11,COM VÍTIMA,DERBY,Perfeito estado,0,2
-2020-11-11,COM VÍTIMA,SANTO AMARO,Outros,0,2
 2020-11-11,SEM VÍTIMA,AFOGADOS,Perfeito estado,0,2
 2020-11-11,COM VÍTIMA,CAMPO GRANDE,Perfeito estado,0,2
 2020-11-11,COM VÍTIMA,TAMARINEIRA,Perfeito estado,0,2
@@ -3036,10 +3028,8 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-11-18,COM VÍTIMA,VÁRZEA,Perfeito estado,1,1
 2020-11-18,COM VÍTIMA,JORDÃO,Perfeito estado,0,2
 2020-11-19,COM VÍTIMA,IMBIRIBEIRA,Perfeito estado,0,2
-2020-11-19,SEM VÍTIMA,CABANGA,Outros,0,2
 2020-11-19,COM VÍTIMA,AFOGADOS,Mal conservada,1,1
 2020-11-19,COM VÍTIMA,CAMPO GRANDE,Perfeito estado,0,2
-2020-11-19,SEM VÍTIMA,VÁRZEA,Outros,0,2
 2020-11-19,VÍTIMA FATAL,BEBERIBE,Mal conservada,0,2
 2020-11-20,COM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
 2020-11-20,COM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
@@ -3141,7 +3131,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-12-05,COM VÍTIMA,IMBIRIBEIRA,Perfeito estado,0,2
 2020-12-05,COM VÍTIMA,ARRUDA,Perfeito estado,0,2
 2020-12-06,COM VÍTIMA,JORDÃO,Perfeito estado,0,2
-2020-12-06,COM VÍTIMA,JORDÃO,Outros,0,2
 2020-12-06,COM VÍTIMA,BOA VISTA,Perfeito estado,0,2
 2020-12-06,COM VÍTIMA,CASA AMARELA,Perfeito estado,0,2
 2020-12-07,COM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
@@ -3252,7 +3241,6 @@ data,natureza_acidente,bairro,conservacao_via,pedestre,veiculos
 2020-12-26,SEM VÍTIMA,IMBIRIBEIRA,Perfeito estado,0,2
 2020-12-27,COM VÍTIMA,IMBIRIBEIRA,Perfeito estado,0,2
 2020-12-27,COM VÍTIMA,IPSEP,Perfeito estado,0,2
-2020-12-28,COM VÍTIMA,CABANGA,Outros,0,1
 2020-12-28,COM VÍTIMA,BOA VIAGEM,Perfeito estado,0,2
 2020-12-28,COM VÍTIMA,BOA VIAGEM,Perfeito estado,0,3
 2020-12-28,SEM VÍTIMA,IMBIRIBEIRA,Perfeito estado,0,2

@@ -1,8 +1,7 @@
 library(shiny)
 
-# See above for the definitions of ui and server
-ui <- ...
-
-server <- ...
+source('global.R')
+source('ui.R')
+source('server.R')
 
 shinyApp(ui = ui, server = server)
