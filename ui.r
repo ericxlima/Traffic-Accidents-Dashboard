@@ -1,32 +1,20 @@
 library(shiny)
 
-# Define UI for app that draws a histogram ----
 ui <- fluidPage(
-
-  # App title ----
-  titlePanel("Hello Shiny!"),
-
-  # Sidebar layout with input and output definitions ----
-  sidebarLayout(
-
-    # Sidebar panel for inputs ----
-    sidebarPanel(
-
-      # Input: Slider for the number of bins ----
-      sliderInput(inputId = "bins",
-                  label = "Number of bins:",
-                  min = 1,
-                  max = 50,
-                  value = 30)
-
-    ),
-
-    # Main panel for displaying outputs ----
-    mainPanel(
-
-      # Output: Histogram ----
-      plotOutput(outputId = "distPlot")
-
-    )
-  )
-)
+    titlePanel("Traffic Accidents Dashboard"),
+    sidebarLayout(
+        sidebarPanel(
+        radioButtons("radio", h3("Bairro:"),
+            choices = list("BOA VIAGEM" = 1, 
+                           "IMBIRIBEIRA" = 2,
+                           "SANTO AMARO" = 3,
+                           "BOA VISTA" = 4,
+                           "MADALENA" = 5),
+            selected = 1), # radioButtons
+        dateRangeInput("dates", h3("Intervalo de datas:")),
+        ), # sidebarPanel
+        mainPanel(
+        plotOutput(outputId = "distPlot")
+        )  # mainPanel
+    )  # sidebarLayout
+)  # fluidPage
