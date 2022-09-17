@@ -1,23 +1,60 @@
 # Define server logic required to draw a histogram ----
 server <- function(input, output) {
+  
+  
 
-  # Histogram of the Old Faithful Geyser Data ----
-  # with requested number of bins
-  # This expression that generates a histogram is wrapped in a call
-  # to renderPlot to indicate that:
-  #
-  # 1. It is "reactive" and therefore should be automatically
-  #    re-executed when inputs (input$bins) change
-  # 2. Its output type is a plot
-  output$distPlot <- renderPlot({
+  # Input
+  #d <- reactive({
+  #  dist <- switch(1000,
+  #                 norm = rnorm,
+  #                 unif = runif,
+  #                 lnorm = rlnorm,
+  #                 exp = rexp,
+  #                 rnorm)
+  #  
+  #  dist(input$n)
+  #})
 
-    x    <- faithful$waiting
-    bins <- seq(min(x), max(x), length.out = input$bins + 1)
+  # Plot
+  output$summary <- renderText({
+    bairro <- input$radio
+    data_inicial = strptime(input$dates[1], format='%Y-%m-%d')
+    data_final = strptime(input$dates[2], format='%Y-%m-%d')
+    
+    filtrado_df <- accidents_df[(accidents_df$bairro == bairro &
+                                 accidents_df$data >= data_inicial &
+                                 accidents_df$data <= data_final),]
+    
+    media_veiculos = mean(filtrado_df$veiculos)
+    mediana_veiculos = median(filtrado_df$veiculos)
+    moda_veiculos <- 0 # fazer depois...
+    desvio_padrao_veiculos = sd(filtrado_df$veiculos)
+    
+    #  Colocar tudo isso numa tabela
+    paste("You have selected", data_inicial, 'and', data_final, 
+          '\n\nEstatísticas de Veículos envolvidos no bairro', bairro, 'por dia.', 
+          '\nMédia de Veículos:', media_veiculos,
+          '\nMediana de Veículos:', mediana_veiculos,
+          '\nModa de Veículos', moda_veiculos,
+          '\nDesvio Padrão de Veículos', desvio_padrao_veiculos)
+  })
 
-    hist(x, breaks = bins, col = "#75AADB", border = "white",
-         xlab = "Waiting time to next eruption (in mins)",
-         main = "Histogram of waiting times")
 
+  output$table <- renderDataTable({
+    bairro <- input$radio
+    data_inicial = strptime(input$dates[1], format='%Y-%m-%d')
+    data_final = strptime(input$dates[2], format='%Y-%m-%d')
+    
+    filtrado_df <- accidents_df[(accidents_df$bairro == bairro &
+                                 accidents_df$data >= data_inicial &
+                                 accidents_df$data <= data_final),]
+    filtrado_df
+    
     })
+
+  # Summary
+  #output$plot <- renderTable({
+  #  accidents_df
+  #  })
 
 }

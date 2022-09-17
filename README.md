@@ -8,6 +8,7 @@ Data visualization is a powerful tool for understanding data. This dashboard is 
 ```sh
 # Run in R console
 install.packages("shiny")
+install.packages('DT')
 ```
 
 
@@ -17,7 +18,7 @@ O dashboard do Shiny deverá conter pelo menos uma aba, onde o usuário
 deverá escolher os inputs e receber como saída:
 
 - [x] Classe a ser analisada (input); 
-- [ ] Intervalo de datas em que a análise será feita (input);
+- [x] Intervalo de datas em que a análise será feita (input);
 - [ ] Uma tabela, contendo nome da classe, moda, média mediana e desvio padrão da série temporal a ser analisada;
 - [ ] Na mesma tabela, o valor máximo e o mínimo atingido pela série;
 - [ ] Gráfico em linha da série;

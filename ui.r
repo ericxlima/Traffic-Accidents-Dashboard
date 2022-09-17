@@ -5,16 +5,25 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
         radioButtons("radio", h3("Bairro:"),
-            choices = list("BOA VIAGEM" = 1, 
-                           "IMBIRIBEIRA" = 2,
-                           "SANTO AMARO" = 3,
-                           "BOA VISTA" = 4,
-                           "MADALENA" = 5),
-            selected = 1), # radioButtons
-        dateRangeInput("dates", h3("Intervalo de datas:")),
+            choices = list("BOA VIAGEM" = "BOA VIAGEM", 
+                           "IMBIRIBEIRA" = "IMBIRIBEIRA",
+                           "SANTO AMARO" = "SANTO AMARO",
+                           "BOA VISTA" = "BOA VISTA",
+                           "MADALENA" = "MADALENA"),
+            selected = "BOA VIAGEM"), # radioButtons
+        dateRangeInput("dates", h3("Intervalo de datas:"), 
+                       start = '2020-01-01',
+                       end = '2020-12-31',
+                       min = '2020-01-01',
+                       max = '2020-12-31'),
         ), # sidebarPanel
         mainPanel(
-        plotOutput(outputId = "distPlot")
+        tabsetPanel(type = "tabs",
+                    tabPanel("Resumo", verbatimTextOutput("summary")),
+                    tabPanel('DataFrame', dataTableOutput('table')),
+                    tabPanel("Plot", plotOutput("plot")),
+                    tabPanel("Table", tableOutput("aaa")),
+            )  # tabsetPanel
         )  # mainPanel
     )  # sidebarLayout
 )  # fluidPage
